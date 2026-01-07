@@ -27,6 +27,13 @@ The AI selects the optimal move by assuming both players play optimally, making 
 ---
 
 ## Project Structure
+src/
+└── com/
+└── chess/
+├── gui/
+│ └── Table.java // Swing GUI and board rendering
+└── engine/
+└── Chessv2.java // Main class and game engine
 
 - `com.chess.gui` – Swing GUI components and user interaction  
 - `com.chess.engine` – Core game logic, AI (Minimax), and application entry point  
